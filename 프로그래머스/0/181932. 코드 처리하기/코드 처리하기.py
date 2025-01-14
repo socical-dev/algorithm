@@ -31,3 +31,10 @@ def solution(code):
         answer = 'EMPTY'
     
     return answer
+
+
+"""
+엄청난 분이 푼 코드,,,
+def solution(code):
+    return "".join(code.split("1"))[::2] or "EMPTY"
+"""
