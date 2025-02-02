@@ -1,5 +1,4 @@
 def solution(my_string):
     answer = ''
-    my_string = my_string.replace("a", "").replace("e", "").replace("i", "").replace("o", "").replace("u", "")
-    answer = my_string
+    answer = "".join([i for i in my_string if not i in "aeiou"])
     return answer
